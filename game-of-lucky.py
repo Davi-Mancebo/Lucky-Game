@@ -99,7 +99,7 @@ se você escolher o mesmo número de computador você ganha, se não você perde
             print('Computador venceu!!')
 
         while escolha not in 'SN':
-            escolha = str(input('\nDeseja continuar? [S/N]')).strip().upper()[0]
+            escolha = str(input('\nDeseja continuar? [Sim/Não] ')).strip().upper()[0]
 
         if escolha == 'N':
             break
