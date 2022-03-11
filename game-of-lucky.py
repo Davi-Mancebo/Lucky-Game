@@ -13,12 +13,10 @@ print("-=" * 25)
 
 while True:
     lingua = str(input("What language do you want for the game?([P]ortuguês/[E]nglish) ")).strip().upper()[0]
-    if lingua == 'P':
-        break
-    if lingua == 'E':
+    if lingua == 'P' or lingua == 'E':
         break
     else:
-        print('Digite apenas P ou I\nJust type P or I\n')
+        print('Digite apenas P ou E\nJust type P or E\n')
         sleep(1.5)
 # Acima fica a função para a seleção da lingua do game
 
